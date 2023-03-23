@@ -21,7 +21,7 @@ functions:
     memorySize: 128 # mb
     events:
       - http:
-          path: images
+          path: files
           method: POST
     iamRoleStatements:
       - Effect: Allow
